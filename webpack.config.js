@@ -5,8 +5,8 @@ module.exports = {
 
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'public'),
-        publicPath: '/public/'
+        path: path.resolve(__dirname, 'build'),
+        publicPath: '/build/'
     },
 
     devServer: {
